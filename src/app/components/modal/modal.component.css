@@ -1,0 +1,49 @@
+
+#modal-content-wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: white;
+    background-color: #1a1a1a;
+
+}
+:host .mat-dialog-container { 
+    background-color: transparent !important;
+}
+.mat-mdc-dialog-container .mdc-dialog__surface {
+    background-color: red !important;
+  }
+  
+#modal-title {
+    font-size: 22px;
+}
+
+#modal-footer {
+    justify-self: right;
+    align-self: center;
+}
+
+:host .mdc-button__label {
+    color: white !important;
+}
+#modal-action-button {
+    margin-right: 10px;
+    background-color:gray;
+    min-width: 75px;
+    color: white;
+}
+
+#modal-cancel-button {
+    background-color: gray;
+    min-width: 75px;
+    color: white;
+}
+.actions-div{
+    float: right;
+}
+
+.mat-mdc-dialog-content
+{
+    padding-top: 20px;
+
+}

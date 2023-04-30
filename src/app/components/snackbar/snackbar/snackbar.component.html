@@ -1,0 +1,14 @@
+<div>
+    <span matSnackBarLabel>
+        <mat-icon *ngIf="data.icon" style="margin:auto; font-size: 25px;">{{data.icon | lowercase}}</mat-icon> 
+        {{ data.discription }}
+    </span>
+    <span matSnackBarActions>
+        <button mat-button matSnackBarAction (click)="actionFunction()">
+            {{ data.actionName }}
+        </button>
+        <button mat-button (click)="closeSnackBar()">
+            Dismiss
+        </button>
+    </span>
+</div>

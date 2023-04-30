@@ -1,0 +1,17 @@
+<div>
+    <h1 mat-dialog-title>{{ modalData.title }}</h1>
+    <div mat-dialog-content>
+        <p>
+            <mat-icon *ngIf="modalData.icon" style="margin:auto; font-size: 25px;">{{modalData.icon | lowercase}}</mat-icon>
+            {{ modalData.description }}
+        </p>
+    </div>
+    <div mat-dialog-actions class="actions-div">
+        <button mat-raised-button id="modal-action-button" (click)="actionFunction()">
+            {{ modalData.actionButtonText }}
+        </button>
+        <button mat-raised-button id="modal-cancel-button" (click)="closeModal()">
+            Close
+        </button>
+    </div>
+</div>

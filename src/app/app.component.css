@@ -1,0 +1,28 @@
+.info-button {
+    color: white;
+    background-color: #5bc0de;
+    border: 1px solid black;
+}
+
+.success-button {
+    color: white;
+    background-color: #5cb85c;
+    border: 1px solid black;
+}
+.warning-button {
+    color: white;
+    background-color: #f0ad4e;
+    border: 1px solid black;
+}
+
+.error-button {
+    color: white;
+    background-color: #d9534f;
+    border: 1px solid black;
+}
+.main-class {
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}

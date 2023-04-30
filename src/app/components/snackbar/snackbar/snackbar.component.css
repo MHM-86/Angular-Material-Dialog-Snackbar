@@ -1,0 +1,16 @@
+div {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+    font-size: 10px;
+}
+mat-icon {
+    vertical-align: bottom;
+    padding-right: 10px;
+}
